@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sv">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Miniprojekt 3 - Rest Countries</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="search-container">
+         <h1><strong>WORLD</strong> UP </h1>
+         <input type="text" id="searchInput" placeholder="Ange ett språk eller ett land">
+         <div class="label-container">
+            <div>
+               <input type="radio" id="name" name="searchType" value="name" checked>
+               <label for="name">Country</label>
+            </div>
+            <div>
+               <input type="radio" id="language" name="searchType" value="language">
+               <label for="language">Language</label>
+            </div>
+         </div>
+         <button id="searchButton">Search</button>
+      </div>
+      <div id="results">
+         <!-- Sökresultatet ska visas här -->
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
