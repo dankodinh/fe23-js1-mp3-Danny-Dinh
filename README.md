@@ -1,5 +1,5 @@
 
-# README för Miniprojekt 3 - Rest Countries
+# Miniprojekt 3 - Rest Countries
 Detta projekt är en webbapplikation som möjliggör sökning av länder baserat på språk eller namn genom REST Countries API. Det är utformat som en del av en utbildningsuppgift med fokus på front-end utveckling med HTML, CSS och JavaScript.
 
 ## Detaljerad Beskrivning
